@@ -1,0 +1,58 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    animation: fadein 1s;
+}
+body .contenedor{
+    padding: 25px 0;
+    min-height: calc(100vh - 163px);
+}
+.navbar-nav{
+    margin: 0 auto;
+}
+.fotoperfil{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    align-items: center;
+}
+.fotoperfil img{
+    width:  290px;
+}
+.nombreperfil{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    align-items: center;
+    text-align: center;
+}
+.nombreperfil h1{
+    color: rgb(25, 175, 155);
+}
+.nombreperfil h2{
+    color: #797979;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #cacaca;
+    padding: 20px 0;
+}
+.footer ion-icon {
+    color: white;
+}
+.fecha-evento{
+    float: right;
+}
+.progress{
+    height: 2rem;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
