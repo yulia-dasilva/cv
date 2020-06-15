@@ -52,6 +52,19 @@ footer{
 .progress{
     height: 2rem;
 }
+.contenedor h3{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
+}
+.contenedor h3 ion-icon{
+    padding-right: 3px;
+}
+.card{
+    min-height: 142px;
+}
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
