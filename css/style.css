@@ -65,6 +65,33 @@ footer{
 .card{
     min-height: 142px;
 }
+
+.detalle-cert{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+.card-img{
+    width: 80%;
+}
+.en-curso{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+.en-curso img{
+    width: 40%;
+}
+.biografia{
+    max-width: 600px;
+    margin: auto;
+}
+.boton-cv{
+    color: white !important;
+    width: 200px;
+    padding: 15px 30px;
+}
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
