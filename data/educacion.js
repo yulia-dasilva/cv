@@ -1,5 +1,25 @@
 const educacion = [
     {
+        "institucion":"Instituto Raúl Escalabrini Ortíz",
+        "titulacion": "Tenicatura en Análisis de Sistemas Informáticos",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina",
+        "mes": "En curso",
+        "anio":"2021",
+        "urlminiatura":"http://shorturl.at/adnZ8",
+        "miniatura":"./img/thumbnails/titulo-universitario-_tn.jpg"
+    },
+    {
+        "institucion":"Educación IT",
+        "titulacion": "Introducción a Base de Datos y SQL",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina",
+        "mes": "Febrero 2021",
+        "anio":"2021",
+        "urlminiatura":"http://shorturl.at/prFL1",
+        "miniatura":"./img/thumbnails/base-de-datos-y-sql_tn.jpg"
+    },
+    {
         "institucion":"Ministerio de Educación - Aprendé Programando",
         "titulacion": "Desarrollo web",
         "ciudad": "Buenos Aires",

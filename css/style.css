@@ -1,40 +1,47 @@
-html, body{
+html, body {
     height: 100%;
     width: 100%;
     background-color: rgb(245, 245, 245);
     animation: fadein 1s;
 }
-body .contenedor{
+
+body .contenedor {
     padding: 25px 0;
     min-height: calc(100vh - 163px);
 }
-.navbar-nav{
+
+.navbar-nav {
     margin: 0 auto;
 }
-.fotoperfil{
+
+.fotoperfil {
     display: flex;
     justify-content: center;
     flex-flow: row;
     align-items: center;
 }
-.fotoperfil img{
-    width:  290px;
+
+.fotoperfil img {
+    width: 290px;
 }
-.nombreperfil{
+
+.nombreperfil {
     display: flex;
     justify-content: center;
     flex-flow: row;
     align-items: center;
     text-align: center;
 }
-.nombreperfil h1{
+
+.nombreperfil h1 {
     color: rgb(25, 175, 155);
 }
-.nombreperfil h2{
+
+.nombreperfil h2 {
     color: #797979;
 }
 
-footer{
+footer {
     position: relative;
     bottom: 0;
     left: 0;
@@ -43,56 +50,77 @@ footer{
     color: #cacaca;
     padding: 20px 0;
 }
+
 .footer ion-icon {
     color: white;
 }
-.fecha-evento{
+
+.fecha-evento {
     float: right;
 }
-.progress{
+
+.progress {
     height: 2rem;
 }
-.contenedor h3{
+
+.contenedor h3 {
     display: flex;
     flex-flow: row;
     align-items: center;
     justify-content: center;
     padding-top: 8px;
 }
-.contenedor h3 ion-icon{
+
+.contenedor h3 ion-icon {
     padding-right: 3px;
 }
-.card{
+
+.card {
     min-height: 142px;
 }
 
-.detalle-cert{
+.detalle-cert {
     display: flex;
     flex-flow: row;
     align-items: center;
 }
-.card-img{
+
+.card-img {
     width: 80%;
 }
-.en-curso{
+
+.en-curso {
     display: flex;
     flex-flow: row;
     align-items: center;
     justify-content: center;
 }
-.en-curso img{
+
+.en-curso img {
     width: 40%;
 }
-.biografia{
+
+.biografia {
     max-width: 600px;
     margin: auto;
 }
-.boton-cv{
+
+.boton-cv {
     color: white !important;
     width: 200px;
     padding: 15px 30px;
 }
+
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.foto-portafolio {
+    width: 18em !important;
+    margin: auto;
 }

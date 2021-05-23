@@ -1,19 +1,41 @@
+// guardo en la constante "bloqueEducacion" la referencia al div con id="educacion"
+// que voy a usar para luego meter dentro de ella, todos los componentes que voy a crear
 const bloqueEducacion = document.querySelector("#educacion");
-for (let i = 0; i < educacion.length; i++) {
-    const element = educacion[i];
-    
 
+// con este ciclo for recorro el array que se encientra en el archivo educacion.js con 
+// el nombre "educacion"
+for (let i = 0; i < educacion.length; i++) {
+
+// en la constante "element" guardo cada uno de los elementos que tenga "educacion"
+    const element = educacion[i];
+
+// creo un elemento <div></div> y los guardo en "divCard"
     let divCard = document.createElement("div");
+
+    // le agrego la clase "card" (clase de ccs) a "divCard"
     divCard.className="card";
+
     let divRow= document.createElement("div");
     divRow.className="row no-gutters";
     let divCol4= document.createElement("div");
     divCol4.className="col-md-4 text-center";
+
+    // creo un elemento <a></a> y lo guardo en en la variable "enlaceImagenMiniatura"
     let enlaceImagenMiniatura= document.createElement("a");
+
+    // le agrego una url al tag <a href=""></a> 
     enlaceImagenMiniatura.href= element.urlminiatura;
+
+    // le agrego una clase al tag <a class=""></a> 
     enlaceImagenMiniatura.className= "card-link";
+
+    // le agrego un target al tag <a target=""></a> 
     enlaceImagenMiniatura.target= "_blank";
+
+    // creo un elemento <img /> y lo gaurdo en la variable "imagenMiniatura" 
     let imagenMiniatura= document.createElement("img");
+
+    // ahora indico fuente de la imagen con el atributo src  <img src="" />
     imagenMiniatura.src= element.miniatura;
     imagenMiniatura.className= "card-img";
     let divCol8= document.createElement("div");
