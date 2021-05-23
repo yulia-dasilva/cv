@@ -16,7 +16,7 @@ const educacion = [
         "pais": "Argentina",
         "mes": "Marzo",
         "anio":"2021",
-        "urlminiatura":"http://shorturl.at/prFL1",
+        "urlminiatura":"https://api.alumni.education/course/calendar/diploma/get?format=pdf&code=464971J0BVXXEKK6E3F7IO4J0E279HO3",
         "miniatura":"./img/thumbnails/base-de-datos-y-sql_tn.jpg"
     },
     {
@@ -57,7 +57,7 @@ const educacion = [
         "ciudad": "",
         "pais": "",
         "mes": "Mayo",
-        "anio":"20https://drive.google.com/file/d/16tHMLY1xM3Zw9WuuF1uBchNc1vHzayfU/view20",
+        "anio":"2020",
         "urlminiatura":"https://drive.google.com/file/d/16tHMLY1xM3Zw9WuuF1uBchNc1vHzayfU/view",
         "miniatura":"./img/thumbnails/introduccion-al-desarrollo-web-1-_tn.jpg"
         
