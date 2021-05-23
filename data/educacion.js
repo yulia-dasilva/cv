@@ -7,7 +7,7 @@ const educacion = [
         "mes": "En curso",
         "anio":"2021",
         "urlminiatura":"http://shorturl.at/adnZ8",
-        "miniatura":"./img/thumbnails/titulo-universitario-_tn.jpg"
+        "miniatura":"./img/enprogreso.jpg"
     },
     {
         "institucion":"Educación IT",
