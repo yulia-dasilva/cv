@@ -14,7 +14,7 @@ const educacion = [
         "titulacion": "Introducción a Base de Datos y SQL",
         "ciudad": "Buenos Aires",
         "pais": "Argentina",
-        "mes": "Febrero 2021",
+        "mes": "Marzo",
         "anio":"2021",
         "urlminiatura":"http://shorturl.at/prFL1",
         "miniatura":"./img/thumbnails/base-de-datos-y-sql_tn.jpg"
@@ -57,8 +57,8 @@ const educacion = [
         "ciudad": "",
         "pais": "",
         "mes": "Mayo",
-        "anio":"2020",
-        "urlminiatura":"http://shorturl.at/cesS3",
+        "anio":"20https://drive.google.com/file/d/16tHMLY1xM3Zw9WuuF1uBchNc1vHzayfU/view20",
+        "urlminiatura":"https://drive.google.com/file/d/16tHMLY1xM3Zw9WuuF1uBchNc1vHzayfU/view",
         "miniatura":"./img/thumbnails/introduccion-al-desarrollo-web-1-_tn.jpg"
         
     },
@@ -67,7 +67,7 @@ const educacion = [
         "titulacion": "Tester QA Avanzado",
         "ciudad": "Buenos Aires",
         "pais": "Argentina",
-        "mes": "Febrero",
+        "mes": "Mayo",
         "anio":"2020",
         "urlminiatura":"https://api.alumni.education/course/certificate/generate?hash=46e7d75d-f25d-4f63-b429-97525df01e7b&format=html",
         "miniatura":"./img/thumbnails/tester-avanzado_tn.jpg"
@@ -77,8 +77,8 @@ const educacion = [
         "titulacion": "Tester QA",
         "ciudad": "Buenos Aires",
         "pais": "Argentina",
-        "mes": "Diciembre",
-        "anio":"2019",
+        "mes": "Febrero",
+        "anio":"2020",
         "urlminiatura":"https://api.alumni.education/course/certificate/generate?hash=42a700d8-93a5-46e9-aa46-3dca44bf6788&format=html",
         "miniatura":"./img/thumbnails/tester-qa-_tn.jpg"
     },
