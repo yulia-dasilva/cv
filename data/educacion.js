@@ -10,6 +10,26 @@ const educacion = [
         "miniatura":"./img/enprogreso.jpg"
     },
     {
+        "institucion":"Agencia de Aprendizaje a lo largo de la vida",
+        "titulacion": "Python FullStack Programa Codo a Codo 4.0",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina",
+        "mes": "Octubre",
+        "anio":"2021",
+        "urlminiatura":"https://drive.google.com/file/d/1PmLT5w17AJ7yhgS0bk8NXR8YpJ-vB50H/view?usp=sharing",
+        "miniatura":"./img/thumbnails/python-fullstack_tn.jpg"
+    },
+    {
+        "institucion":"Universidad Tecnológica Nacional (UTN)",
+        "titulacion": "Professional Testing Master Nivel Avanzado",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina",
+        "mes": "Agosto",
+        "anio":"2021",
+        "urlminiatura":"https://drive.google.com/file/d/1qnUOpcdDT-g8A8pBeMS8n4CMBa6Plkga/view?usp=sharing",
+        "miniatura":"./img/thumbnails/professional-testing-master-nivel-avanzado_tn.jpg"
+    },
+    {
         "institucion":"Educación IT",
         "titulacion": "Introducción a Base de Datos y SQL",
         "ciudad": "Buenos Aires",
